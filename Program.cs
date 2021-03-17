@@ -16,7 +16,7 @@ namespace ParcialCorte1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Modulo1Formulario());
+            Application.Run(new Modulo3Formulario());
         }
     }
 }

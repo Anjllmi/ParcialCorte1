@@ -128,6 +128,7 @@ namespace ParcialCorte1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Gray;
             this.label1.Location = new System.Drawing.Point(105, 16);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(190, 20);
@@ -149,6 +150,8 @@ namespace ParcialCorte1
             this.Controls.Add(this.CNum_Entero1);
             this.MaximizeBox = false;
             this.Name = "Modulo1Formulario";
+            this.Opacity = 0.9D;
+            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Módulo 1 - Mayor de dos números";
             this.Load += new System.EventHandler(this.Form1_Load);
