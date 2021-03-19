@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
+=======
+﻿<?xml version="1.0" encoding="utf-8"?>
+>>>>>>> origin/R34LG4
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -46,6 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
 
 
     <Compile Include="Menu.cs">
@@ -90,6 +95,36 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
+=======
+    <Compile Include="Modulo 2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo 2.Designer.cs">
+      <DependentUpon>Modulo 2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo 4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo 4.Designer.cs">
+      <DependentUpon>Modulo 4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo 6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo 6.Designer.cs">
+      <DependentUpon>Modulo 6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Modulo 2.resx">
+      <DependentUpon>Modulo 2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo 4.resx">
+      <DependentUpon>Modulo 4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo 6.resx">
+      <DependentUpon>Modulo 6.cs</DependentUpon>
+>>>>>>> origin/R34LG4
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -99,6 +134,10 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+<<<<<<< HEAD
+=======
+      <DesignTime>True</DesignTime>
+>>>>>>> origin/R34LG4
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -113,5 +152,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+<<<<<<< HEAD
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
+=======
+  <ItemGroup>
+    <None Include="Resources\fondo-inconsútil-con-las-figuras-geométricas-39785559.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_94244088-stock-photo-colored-alphabet-letters-abc-on.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
+>>>>>>> origin/R34LG4
