@@ -46,16 +46,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Modulo 2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Modulo 2.Designer.cs">
+      <DependentUpon>Modulo 2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo 4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo 4.Designer.cs">
+      <DependentUpon>Modulo 4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo 6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo 6.Designer.cs">
+      <DependentUpon>Modulo 6.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Modulo 2.resx">
+      <DependentUpon>Modulo 2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo 4.resx">
+      <DependentUpon>Modulo 4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo 6.resx">
+      <DependentUpon>Modulo 6.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -65,6 +83,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +97,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo-inconsútil-con-las-figuras-geométricas-39785559.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_94244088-stock-photo-colored-alphabet-letters-abc-on.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
