@@ -54,7 +54,8 @@ namespace ParcialCorte1
 
         private void button6_Click(object sender, EventArgs e)
         {
-            //modulo6 nuevo = new modulo6();
+            Modulo6 nuevo = new Modulo6();
+            nuevo.Show();
         }
     }
 }
