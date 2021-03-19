@@ -42,12 +42,14 @@ namespace ParcialCorte1
 
         private void button4_Click(object sender, EventArgs e)
         {
-            //modulo2 nuevo = new modulo2();
+            Modulo2 nuevo = new Modulo2();
+            nuevo.Show();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            //modulo4 nuevo = new modulo4();
+            Modulo4 nuevo = new Modulo4();
+            nuevo.Show();
         }
 
         private void button6_Click(object sender, EventArgs e)

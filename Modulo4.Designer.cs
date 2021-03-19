@@ -1,7 +1,7 @@
 ﻿
 namespace ParcialCorte1
 {
-    partial class Modulo_4
+    partial class Modulo4
     {
         /// <summary>
         /// Required designer variable.
@@ -39,7 +39,6 @@ namespace ParcialCorte1
             // 
             // panel1
             // 
-            this.panel1.BackgroundImage = global::ParcialCorte1.Properties.Resources.depositphotos_94244088_stock_photo_colored_alphabet_letters_abc_on;
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.label1);
@@ -89,14 +88,14 @@ namespace ParcialCorte1
             this.txtPalabra.Size = new System.Drawing.Size(171, 20);
             this.txtPalabra.TabIndex = 2;
             // 
-            // Modulo_4
+            // Modulo4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(387, 311);
             this.Controls.Add(this.panel1);
-            this.Name = "Modulo_4";
-            this.Text = "Modulo_4";
+            this.Name = "Modulo4";
+            this.Text = "Modulo4";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

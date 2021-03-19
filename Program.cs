@@ -16,7 +16,7 @@ namespace ParcialCorte1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-<<<<<<< HEAD
+
             Application.Run(new Menu());
             /*
             Application.Run(new Modulo1Formulario());
@@ -26,12 +26,12 @@ namespace ParcialCorte1
             Application.Run(new Modulo 4());
             Application.Run(new Modulo 6());
             */
-=======
-            Application.Run(new Form1());
-            Application.Run(new Modulo_4());
-            Application.Run(new Modulo_6());
+            /*
+            Application.Run(new Modulo2());
+            Application.Run(new Modulo4());
+            //Application.Run(new Modulo_6());*/
 
->>>>>>> origin/R34LG4
+
         }
     }
 }

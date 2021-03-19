@@ -1,7 +1,7 @@
 ﻿
 namespace ParcialCorte1
 {
-    partial class Form1
+    partial class Modulo2
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -41,7 +41,6 @@ namespace ParcialCorte1
             // 
             // panel1
             // 
-            this.panel1.BackgroundImage = global::ParcialCorte1.Properties.Resources.fondo_inconsútil_con_las_figuras_geométricas_39785559;
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.AlturaC);
             this.panel1.Controls.Add(this.BaseC);
@@ -108,13 +107,13 @@ namespace ParcialCorte1
             this.label1.TabIndex = 0;
             this.label1.Text = "Digite La Base Del Cuadrado";
             // 
-            // Form1
+            // Modulo2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(609, 450);
             this.Controls.Add(this.panel1);
-            this.Name = "Form1";
+            this.Name = "Modulo2";
             this.Text = "Modulo 2";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

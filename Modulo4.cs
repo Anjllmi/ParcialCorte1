@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ParcialCorte1
 {
-    public partial class Modulo_4 : Form
+    public partial class Modulo4 : Form
     {
-        public Modulo_4()
+        public Modulo4()
         {
             InitializeComponent();
         }

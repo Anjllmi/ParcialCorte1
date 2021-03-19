@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -46,114 +46,80 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-
-
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
-
     <Compile Include="Modulo5Formulario.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Modulo5Formulario.Designer.cs">
       <DependentUpon>Modulo5Formulario.cs</DependentUpon>
     </Compile>
-
     <Compile Include="Modulo1Formulario.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Modulo1Formulario.Designer.cs">
       <DependentUpon>Modulo1Formulario.cs</DependentUpon>
     </Compile>
-
     <Compile Include="Modulo3Formulario.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Modulo3Formulario.Designer.cs">
       <DependentUpon>Modulo3Formulario.cs</DependentUpon>
     </Compile>
-
-    <Compile Include="Modulo 2.cs">
+    <Compile Include="Modulo2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Modulo 2.Designer.cs">
-      <DependentUpon>Modulo 2.cs</DependentUpon>
+    <Compile Include="Modulo2.Designer.cs">
+      <DependentUpon>Modulo2.cs</DependentUpon>
     </Compile>
-
-    <Compile Include="Modulo 4.cs">
+    <Compile Include="Modulo4.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Modulo 4.Designer.cs">
-      <DependentUpon>Modulo 4.cs</DependentUpon>
+    <Compile Include="Modulo4.Designer.cs">
+      <DependentUpon>Modulo4.cs</DependentUpon>
     </Compile>
-
-    <Compile Include="Modulo  6.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Modulo  6.Designer.cs">
-      <DependentUpon>Modulo 6.cs</DependentUpon>
-    </Compile>
-
-
-
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-
     <EmbeddedResource Include="Modulo1Formulario.resx">
       <DependentUpon>Modulo1Formulario.cs</DependentUpon>
     </EmbeddedResource>
-
     <EmbeddedResource Include="Modulo3Formulario.resx">
       <DependentUpon>Modulo3Formulario.cs</DependentUpon>
     </EmbeddedResource>
-
     <EmbeddedResource Include="Modulo5Formulario.resx">
       <DependentUpon>Modulo5Formulario.cs</DependentUpon>
     </EmbeddedResource>
-
-    <EmbeddedResource Include="Modulo 2.resx">
-      <DependentUpon>Modulo 2.cs</DependentUpon>
+    <EmbeddedResource Include="Modulo2.resx">
+      <DependentUpon>Modulo2.cs</DependentUpon>
     </EmbeddedResource>
-
-    <EmbeddedResource Include="Modulo 4.resx">
-      <DependentUpon>Modulo 4.cs</DependentUpon>
+    <EmbeddedResource Include="Modulo4.resx">
+      <DependentUpon>Modulo4.cs</DependentUpon>
     </EmbeddedResource>
-
-    <EmbeddedResource Include="Modulo 6.resx">
-      <DependentUpon>Modulo 6.cs</DependentUpon>
-    </EmbeddedResource>
-
-
-
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
-
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
