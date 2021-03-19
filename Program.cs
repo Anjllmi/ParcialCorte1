@@ -21,6 +21,9 @@ namespace ParcialCorte1
             Application.Run(new Modulo1Formulario());
             Application.Run(new Modulo3Formulario());
             Application.Run(new Modulo5Formulario());
+            Application.Run(new Modulo 2());
+            Application.Run(new Modulo 4());
+            Application.Run(new Modulo 6());
             */
         }
     }
